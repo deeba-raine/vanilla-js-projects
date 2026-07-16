@@ -34,7 +34,6 @@ body {
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-/* Form layout */
 form {
     display: flex;
     gap: 10px;
@@ -54,7 +53,7 @@ input[type="text"]:focus {
     border-color: #6c5ce7;
 }
 
-/* Button */
+/* Add button */
 button {
     padding: 10px 16px;
     background: #6c5ce7;
@@ -63,19 +62,19 @@ button {
     border-radius: 8px;
     cursor: pointer;
     transition: 0.2s;
-   
 }
 
 button:hover {
     background: #5949d6;
 }
 
+/* Todo item row */
 .todo-item {
     display: flex;
     align-items: center;
     gap: 10px;
     width: 100%;
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
 .todo-item p {
@@ -87,14 +86,10 @@ button:hover {
     flex: none;
     width: 18px;
     height: 18px;
-    padding: 0;
     margin: 0;
 }
 
-.todo-item {
-    margin-bottom: 10px;
-}
-
+/* Delete button */
 .todo-item button {
     padding: 4px 10px;
     font-size: 13px;
